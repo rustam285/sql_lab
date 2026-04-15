@@ -1,0 +1,54 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.python-version
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Local databases and generated layout files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.layout.json
+
+# Logs and reports
+*.log
+.coverage
+coverage.xml
+htmlcov/
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+__pypackages__/
+pip-wheel-metadata/
+
+# Misc
+*.tmp
+*.bak
+*~
